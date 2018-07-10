@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.js"></script> <!-- Aqui a biblioteca JQuery -->
+    <script type="text/javascript" src="criaLink.js"></script> <!-- Aqui chamamos o arquivo JS que deverá trazer os botões criados -->
+    <style>
+    code {
+        background-color: #e74c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 2px 10px;
+    }
+    code a {
+        color: #fff;
+    }
+    pre {
+        background-color: #eee;
+        padding: 20px 0px;
+    }
+    codePre {
+        background-color: #e74c3c;
+        color: #fff;
+        border-radius: 5px;
+        padding: 2px 10px;
+    }
+    </style>
+    <title>Criando links automaticamente com JS</title>
+</head>
+<body>
+    Aqui vai um texto qualquer da página, abaixo será adicionado os elementos <code>'code'</code>
+    <br><br>
+
+    Sempre que o elemento <code>'code'</code> conter uma '#', nossa função do arquivo <code>criaLink.js</code> deverá transformálo em link, e utilizará o texto contido nele para gerar o link, veja:
+    <br><br>
+
+    <code>#imghp</code> - Esta hastag (#) deverá criar um link para o google imagens.
+    <br><br>
+
+    <code>#maps</code> - Esta hastag (#) deverá criar um link para o google maps.
+    <br><br>
+
+    <code>#doodles</code> - Esta hastag (#) deverá criar um link para a área 'doodles' do google.
+    <br><br>
+
+    <pre>
+        Na digitação do HTML, foi adicionado apenas o 'code' seguido da '#' e deixando o texto simples: <codePre>#imghp</codePre>, <codePre>#maps</codePre> e <codePre>#doodles</codePre>
+    </pre>
+</body>
+</html>
